@@ -1,11 +1,11 @@
 import React from 'react'
-import cart from './assets/cart.svg'
+import { BsCart } from "react-icons/bs";
 
 const CartWidget = () => {
   return (
-    <div>
-      <img src={cart} alt="cart-widget" />  
-        0
+    <div className="cartwidget" >
+      <BsCart size={30}/>  
+        <span>0</span>
     </div>
   )
 }

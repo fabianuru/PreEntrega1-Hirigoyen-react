@@ -1,11 +1,12 @@
 import React from 'react'
 import CartWidget from '../CartWidget/CartWidget'
+import "./navbar.scss"
 
 const NavBar = () => {
   return (
-    <nav>
-        <h2>E-Commerce</h2>
-        <ul>
+    <nav className="navbar">
+        <h2 className ="brand">JUICELAB</h2>
+        <ul className="links">
             <li>Home</li>
             <li>Nosotros</li>
             <li>Productos</li>
